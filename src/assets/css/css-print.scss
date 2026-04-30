@@ -1,0 +1,244 @@
+@media print {
+    @page {
+        margin: 30px 10px;
+    }
+
+    /*
+    @page:first {
+        margin: 150px 110px;
+
+        .cv-main-container {
+
+            .cv-page-left {
+                background-color: #3498db;
+            }
+            .right-side {
+              
+            }
+        }
+    }
+    */
+    .no-print {
+        display: none;
+    }
+    .col-print-12 {
+        flex: 0 0 auto;
+        width: 100% !important;
+    }
+
+    body{
+        -webkit-print-color-adjust:exact !important;
+        print-color-adjust:exact !important;
+      }
+
+    .cv-main-container {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+
+        .container {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            @media (min-width: 1400px) {
+                max-width: 100%
+            }
+            @media (min-width: 1200px) {
+                max-width: 100%
+            }
+            @media (min-width: 992px) {
+                max-width: 100%
+            }
+            @media (min-width: 768px) {
+                max-width: 100%
+            }
+            @media (min-width: 576px) {
+                max-width: 100%
+            }
+
+            .section-container {
+                &.section-container-page0 {
+                    .right-side {
+                        .cv-texts-wrapper {
+                            .cv-texts {
+                                .cv-text-block {
+                                    margin-bottom: 20px;
+
+                                    .cv-text-subblock {
+                                        padding: 1px 0 2px 0;
+                                    }
+
+                   
+                                    .cv-title0 {
+                                        font-size: 12px;
+                                    }
+                                    .cv-title1 {
+                                        font-size: 11px;
+                                    }
+                                    .cv-description {
+                                        font-size: 11px;
+                                    }
+                                    .cv-description-list {
+                                        font-size: 11px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        
+        }
+        .cv-page-left {
+            width: 300px;
+            min-height: 1000px;
+            padding: 25px 0 0 25px;
+            
+            .cv-contakts-container {
+                .cv-contakts {
+                    >li {
+                        margin-left: 1em;
+                        margin-right: 1em;
+                    }
+                }
+            }
+            .cv-description-container {
+                .cv-description {
+                    .cv-description-label {
+                        width: 40%!important;
+                        font-size: 11px;
+                    }
+                    .cv-description-text, .cv-description-text a {
+                        width: 60% !important;
+                        font-size: 11px;
+                    }
+                }
+            }
+        }
+
+        //.right-side .cv-texts-wrapper .cv-texts .cv-text-block .cv-text-subblock .cv-title0 
+        .right-side {
+            width: 483px;
+            padding: 10px 15px 0 15px;
+            margin-left: 15px;
+            
+            background-color: #ffffff !important;
+            border-left: #06892250 5px outset;
+            color: #000;
+            .cv-texts-wrapper {
+                .cv-texts {
+                    padding: 0;
+                    //min-height: 1042px;
+                    min-height: 1040px;
+
+                    .cv-text-header {
+                        font-size: 25px;
+                        font-weight: 900;
+                    }
+                    .cv-text-block {
+                        padding: 5px 0 5px 0;
+
+                        .cv-text-block-label {
+                            font-size: 18px;
+                            font-weight: 700;
+                            margin-bottom: 0;
+                        }
+                        .cv-text-subblock {
+                            padding: 1px 0 1px 0;
+
+                            .cv-description {
+                                color: #000;
+                            }
+                            .cv-description-list {
+                                color: #000;
+
+                                li {
+                                    text-align: justify;
+                                }
+                            }
+                            .cv-title0 {
+                                font-size: 11px;
+                                font-weight: 800;
+                            }
+                            .cv-title1 {
+                                font-size: 11px;
+                                padding-left: 5px;
+                            }
+                            .cv-description {
+                                text-align: justify;
+                                font-size: 10px;
+                            }
+                            .cv-description-list {
+                                text-align: justify;
+                                font-size: 10px;
+                                
+                                padding-top: 0;
+                                padding-bottom: 0;
+                                margin-block-start: .25em;
+                                margin-block-end: .5em;
+                                
+                                > li {
+                                    text-align: justify;   
+                                    h5 {
+                                        font-size: 10px;
+                                        font-weight: 800;
+                                        margin-bottom: 0;
+                                        margin-top: 5px;
+                                    }
+                                    p {
+                                        margin-left: 7px;
+                                    }
+
+                                    ul{ 
+                                        margin-left: 0px;
+                                        padding-inline-start: 0px;
+
+
+                                        li {
+                                            margin-left: 0px;
+
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        a {
+                            color: #000;
+                            font-weight: 500;
+                        }
+                    }
+                }
+            }
+        }
+
+        .body-theme {
+            background: #ffffff !important;
+        }
+    
+        &.cv-theme {
+            .cv-page-right {
+                background: #ffffff !important;
+            }
+    
+            &:after {
+                background: #ffffff !important;
+            }
+        }
+    }
+
+    .cv-description-container {
+        .cv-description {
+            .cv-description-text, .cv-description-text >a {
+                color: #5e5e5e;
+            }
+        }
+    }
+
+    .cv-page-left {
+        p.cv-position {
+            color: #5e5e5e;
+        }
+    }
+
+
+}
