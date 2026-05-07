@@ -27,7 +27,7 @@ export default {
       },
       {
         label: "Telephone number:",
-        text: "+380955513355",
+        text: "+491706659885, +380955513355",
       },
       {
         label:"GitHub",
@@ -443,7 +443,7 @@ export default {
             subBlocks: [
               {
                 type:"text",
-                title:"Twist, April 2026",
+                title:"Twist, May 2026",
               },
             ]
           },

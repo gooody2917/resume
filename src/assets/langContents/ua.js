@@ -27,7 +27,7 @@ export default {
       },
       {
         label: "Номер телефону:",
-        text: "+380955513355",
+        text: "+380955513355, +491706659885",
       },
       {
         label:"GitHub",
@@ -446,7 +446,7 @@ export default {
             subBlocks: [
               {
                 type:"text",
-                title:"Twist, Квітень 2026",
+                title:"Twist, Травень 2026",
               },
             ]
           },
