@@ -155,7 +155,7 @@ export default {
               {
                 type:"list-col",
                 title0:"Sprachen:",
-                title1:"Ukrainisch (Muttersprache) <br />russisch (fließend)<br />Deutsch (B2) <br />Englisch (A2)",
+                title1:"Ukrainisch (Muttersprache) <br />russisch (fließend)<br />Deutsch (B2) <br />Englisch (B2)",
               },
             ]
           },  
